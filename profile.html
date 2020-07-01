@@ -7,7 +7,7 @@
     <meta name="description" content="Enter Content">
     <meta name="author" content="Daniel O' Keeffe">
 
-    <title>Roundabout Sim - Privacy Policy</title>
+    <title>Roundabout Sim - Profile</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -39,9 +39,9 @@
         <ul class="menu">
             <li><a href="index.html">Home</a></li>
             <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a class="active" href="profile.html">Profile</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li data-brackets-id='3525'><a data-brackets-id='3526' href="logSignIn.html">Sign In/Up</a></li>
+            <li><a href="login.html">Logout</a>
         </ul>
         <div class="burger">
             <div class="line1"></div>
@@ -64,19 +64,28 @@
             <li class="breadcrumb-item">
                 <a class="bc-link" href="index.html">Home</a>
             </li>
-            <li class="breadcrumb-item">Privacy Policy</li>
+            <li class="breadcrumb-item">Profile</li>
         </ol>
-
-
-
-        <div class="contact-box">
-            <div class="center-item">
-                <h1 data-aos="fade-up" data-aos-offset="10" data-aos-delay="200" data-aos-duration="400" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true" data-aos-anchor-placement="top">Privacy Policy</h1>
-                <hr data-aos="fade-up" data-aos-offset="10" data-aos-delay="200" data-aos-duration="400" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true" data-aos-anchor-placement="top">
-                <div class="pusher"></div>
-                <p class="small-p" data-aos="fade-up" data-aos-offset="10" data-aos-delay="200" data-aos-duration="400" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true" data-aos-anchor-placement="top">Proin eget tortor risus. Vestibulum ante ipsum primis in faucibus orci luctus et Proin eget tortor risus. Vestibulum ante ipsum primis in faucibus orci luctus et Proin eget tortor risus. Vestibulum ante ipsum primis in faucibus orci luctus et
-            </div>
+        <div class="center-item">
+            <h1 data-aos="fade-up" data-aos-offset="10" data-aos-delay="200" data-aos-duration="400" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true" data-aos-anchor-placement="top">Profile</h1>
+            <hr data-aos="fade-up" data-aos-offset="10" data-aos-delay="200" data-aos-duration="400" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true" data-aos-anchor-placement="top">
+            <div class="pusher"></div>
         </div>
+
+        <!--text section-->
+        <div class="text-section" data-aos="fade-up" data-aos-offset="10" data-aos-delay="5" data-aos-duration="500" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true" data-aos-anchor-placement="top">
+            <img src="img/profile-placeholder.png">
+            <h1>User ID : ${user.userid}</h1>
+            <h1>Username : ${user.username}</h1>
+            <hr>
+            <h4>Password : ${user.password}</h4>
+            <p>Email : ${user.email}</p>
+            <p>Bio : ${user.bio}</p>
+            <a href="editProfile.html">
+                <li class="btn ">Edit Profile</li>
+            </a>
+        </div>
+
 
         <div class="pusher"></div>
         <div class="pusher"></div>
@@ -85,7 +94,6 @@
     <!--Main wrap end-->
 
 
-    <!--Footer-->
     <div class="footer">
         <div class="footer-wrap">
             <img class="foot-logo" src="img/logo.png">

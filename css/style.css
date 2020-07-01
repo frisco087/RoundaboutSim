@@ -30,7 +30,7 @@
 }
 
 .center-item li{
-    width: 30%;
+    width: 50%;
 }
 
 .text-gap {
@@ -315,12 +315,6 @@ nav {
     text-align: center;
 }
 
-.text-section * {
-    margin: 30px 0 30px 0;
-    padding-left: 60px;
-    padding-right: 60px;
-
-}
 
 /*---Text section---*/
 .text-section {
@@ -328,6 +322,10 @@ nav {
     color: white;
     padding: 30px;
 
+}
+
+.text-section * {
+    margin: 30px 0 30px 0;
 }
 
 
@@ -438,6 +436,22 @@ box-lrg {
     font-weight: bold;
     width: 100%;
 }
+
+.text-section .btn{
+    width: 50%;
+    
+}
+
+.text-section .btn:hover{
+    background-color: #ffffff;
+    color: #418a9a;
+}
+
+.login-box .btn:hover{
+    background-color: #50aa8e;
+    color: white;
+}
+
 button.logout{
     padding: 12px;
     border: none;
@@ -1071,6 +1085,10 @@ q {
         padding: 0;
     }
 
+    .text-section .btn{
+        padding: 20px;
+    }
+    
     #myCarousel {
         padding-top: 12vh;
 

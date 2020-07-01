@@ -7,7 +7,7 @@
     <meta name="description" content="Enter Content">
     <meta name="author" content="Daniel O' Keeffe">
 
-    <title>Roundabout Sim - Privacy Policy</title>
+    <title>Roundabout Sim - Login / Sign Up</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -34,58 +34,65 @@
     <!--Nav-->
     <nav>
         <div class="logo">
-            <a href="index.html"><img src="img/logo.png"></a>
-        </div>
-        <ul class="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li data-brackets-id='3525'><a data-brackets-id='3526' href="logSignIn.html">Sign In/Up</a></li>
-        </ul>
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
+            <a href="#"><img src="img/logo.png"></a>
         </div>
     </nav>
 
 
-
     <!--main wrapper-->
     <div class="main-wrap">
-
         <div class="pusher"></div>
         <div class="pusher"></div>
         <div class="pusher"></div>
         <div class="pusher"></div>
-        <!--breadcrumb-->
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item">
-                <a class="bc-link" href="index.html">Home</a>
-            </li>
-            <li class="breadcrumb-item">Privacy Policy</li>
-        </ol>
 
-
-
-        <div class="contact-box">
+        <div class="login-box">
             <div class="center-item">
-                <h1 data-aos="fade-up" data-aos-offset="10" data-aos-delay="200" data-aos-duration="400" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true" data-aos-anchor-placement="top">Privacy Policy</h1>
+                <h1 data-aos="fade-up" data-aos-offset="10" data-aos-delay="200" data-aos-duration="400" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true" data-aos-anchor-placement="top">Log In</h1>
                 <hr data-aos="fade-up" data-aos-offset="10" data-aos-delay="200" data-aos-duration="400" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true" data-aos-anchor-placement="top">
-                <div class="pusher"></div>
-                <p class="small-p" data-aos="fade-up" data-aos-offset="10" data-aos-delay="200" data-aos-duration="400" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true" data-aos-anchor-placement="top">Proin eget tortor risus. Vestibulum ante ipsum primis in faucibus orci luctus et Proin eget tortor risus. Vestibulum ante ipsum primis in faucibus orci luctus et Proin eget tortor risus. Vestibulum ante ipsum primis in faucibus orci luctus et
             </div>
-        </div>
 
+            <!-- Contact Form -->
+            <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
+            <div class="row" data-aos="fade-up" data-aos-offset="10" data-aos-delay="200" data-aos-duration="400" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true" data-aos-anchor-placement="top">
+                <div class="">
+                    <div class="rowpad">
+                        
+                            <div class="control-group form-group">
+                                <div class="controls input-container">
+                                    <i class="fa fa-user icon"></i>
+                                    <label>Username</label>
+                                    <input type="text" class="form-control" name="username" placeholder="Username" id="username" required data-validation-required-message="Please enter your name.">
+                                    <p class="help-block"></p>
+                                </div>
+                            </div>
+
+                            <div class="control-group form-group">
+                                <div class="controls input-container">
+                                    <i class="fa fa-key icon"></i>
+                                    <label>Password</label>
+                                    <input type="password" name="password" placeholder="Password" id="password" class="form-control" required data-validation-required-message="Please enter your password.">
+                                    <p><input type="checkbox" onclick="myFunction()">Show Password</p>
+                                </div>
+                            </div>
+
+                            <div id="success"></div>
+                            <!-- For success/fail messages -->
+                            <a href="index.html"><button type="submit" name="menu" value="Process Login" class="btn btn-primary hvr-sweep-to-right" id="sendMessageButton">Login</button></a><br><br>
+                            <p class="center-item">or</p>
+                            <a href="signup.html"><button type="button" name="menu" value="SignUp" class="btn btn-primary hvr-sweep-to-right" id="">Sign Up</button></a>
+                       
+                    </div>
+                </div>
+
+            </div>
+            <!-- /.row -->
+        </div>
         <div class="pusher"></div>
         <div class="pusher"></div>
     </div>
-
     <!--Main wrap end-->
 
-
-    <!--Footer-->
     <div class="footer">
         <div class="footer-wrap">
             <img class="foot-logo" src="img/logo.png">
@@ -106,15 +113,7 @@
                 <p class="footer-company-name">Website built by <br>Daniel O' Keeffe &copy; 2019</p>
             </a>
             <ul data-brackets-id='3640' class="foot-nav">
-                <a data-brackets-id='3641' class="smaller" href="cookies.html">
-                    <li data-brackets-id='3642' class="smaller">Cookie Policy</li>
-                </a>
-                <a data-brackets-id='3643' class="smaller" href="terms.html">
-                    <li data-brackets-id='3644' class="smaller">Terms &#38 Conditons</li>
-                </a>
-                <a data-brackets-id='3645' class="smaller" href="privacy-policy.html">
-                    <li data-brackets-id='3646' class="smaller">Privacy Policy</li>
-                </a>
+
             </ul>
         </div>
         <!--scroll top-->
@@ -122,6 +121,7 @@
             <div class='scroll icon'><i class="fa fa-4x fa-angle-up"></i></div>
         </div>
     </div>
+
 
 
     <!--scripts-->
@@ -154,13 +154,24 @@
         })
 
     </script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("password");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
 
+    </script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- Contact form JavaScript -->
     <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
-
-
 </body>
 
 </html>
